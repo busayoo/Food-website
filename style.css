@@ -31,3 +31,32 @@
     margin: 2rem;
                                             
 }
+.btn-container{
+    display: flex;
+}
+.stn1-top-meals{
+    display: inline-block;
+    width: 100%;
+    margin: 0 11rem;
+}
+.stn1-top-meals img{
+    margin:0 5rem 0 0;
+}
+.stn1-top-meals img:nth-child(2){
+    padding-top: 4rem;
+}
+.stn1-mid-meals{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.stn1-mid-meals img{
+    height: 25%;
+}
+.stn1-mid-text{
+    display: flex;
+    text-align: center;
+    margin:0 4rem;
+    padding:0 17rem;
+    gap: 2rem;
+}
