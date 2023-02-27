@@ -4,6 +4,14 @@
     padding: 0;
     margin: 0;
 }
+body{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #EDEDED;
+}
+section{
+    background-color:#FFFFFF;
+}
 .stn-1{
     background-image: url("images/Mask\ group.png");
     background-size: contain;
@@ -29,7 +37,6 @@
     color: #EDEDED;
     padding: auto;
     margin: 2rem;
-                                            
 }
 .btn-container{
     display: flex;
@@ -59,4 +66,99 @@
     margin:0 4rem;
     padding:0 17rem;
     gap: 2rem;
+}
+.stn1-btn{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+.stn1-btn-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.stn1-btn-card-text{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.red-round-btns{
+    display: inline;
+    margin-left: 39rem;
+}
+.stn-2{
+    width: 100%;
+    margin: 2rem auto;
+    display: flex;
+}
+.stn-2-left{
+    background:url("images/barbecue-meat-grill-fire-69056\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    width: 41%;
+}
+.stn-2-left img{
+    position: relative;
+    right: 5.8rem;
+    z-index: 1;
+}
+.stn-2-right{
+    width: 54%;
+    margin-top: 14rem;
+    padding: 2rem;
+}
+.stn-2-right>p{
+    font: 800;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 2rem auto;
+    padding-right: 2rem;
+}
+.stn-2-right>small{
+    font: 800;
+    margin: 10rem auto;
+    padding-right: 10rem;
+    font-size: medium;
+    opacity: 0.8;
+}
+.stn-2-right-btm{
+    display: flex;
+    padding-top: 1.2rem;
+    justify-content: space-between;
+}
+.stn-2-right-btn{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.stn-2-right-btn button{
+    margin: 2rem 0;
+}
+.arrow-case{
+    margin-top: 1rem;
+    padding-left: .1rem;
+    display: flex;
+    gap: 1rem;
+}
+.arrow-case img:first-child {
+    border: 1px solid #ff0000 ;
+    border-radius: 60rem;
+    background-color: #FFFFFF;
+}
+.arrow-case img:last-child{
+    border: 1px solid #ff0000 ;
+    border-radius: 60rem;
+    background-color: #FF0000;
+}
+.arrow-case>img{
+    padding:  0.9rem;
+}
+button{
+    color: #FFFFFF;
+    background-color: #f53434;
+    padding: 2rem;
+    border-radius: 10rem;
+    border: 1px solid #ff0000;
 }
