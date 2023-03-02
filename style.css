@@ -239,20 +239,27 @@ button{
 }
 footer>p{
     text-align: center;
-    padding: 2rem;
+    padding-top: 2.4em;
 }
 footer img{
     background-color: #f53434;
-    padding: .7rem;
+    padding: 8px 9px;
     border-radius: 16rem;
     margin-right: 1rem;
 }
 .foot-card-container .foot-card:last-child {
-    gap: 0.2rem;
     padding: .5rem 0;
+    margin: 1.7rem 0 0 2rem;
+}
+:last-of-type.foot-card div{
+    display: flex;
+    padding: 2rem auto;
+}
+.special-first img{
+    padding: 7px 6px!important;
 }
 .special-icon img{
-    padding: .8rem !important;
+    padding: 9px 3px !important;
 }
 .stn-4-btm{
     display: flex;
