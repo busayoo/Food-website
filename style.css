@@ -13,6 +13,7 @@ body{
 }
 section{
     background-color:#FFFFFF;
+    width: 100%;
 }
 .stn-1{
     background-image: url("images/Mask\ group.png");
@@ -42,6 +43,20 @@ section{
 }
 .btn-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 26em;
+    margin: 2rem auto;
+}
+.btn-container button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.btn-container button{
+    padding-left: 2rem ;
+}
+.stars{
+    padding-right: 31rem;
 }
 .stn1-top-meals{
     display: inline-block;
@@ -58,6 +73,7 @@ section{
     display: flex;
     justify-content: space-between;
     margin: 2rem;
+    align-items: center;
 }
 .stn1-mid-meals img{
     height: 25%;
@@ -65,9 +81,22 @@ section{
 .stn1-mid-text{
     display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     margin:0 4rem;
-    padding:0 17rem;
+    padding:0 9rem;
     gap: 2rem;
+}
+.stn1-mid-text p{
+    font: 800;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-left: 2rem;
+    width: 45%;
+    white-space: nowrap;
+}
+.stn1-mid-text small{
+    width: 45%;
 }
 .stn1-btn{
     display: flex;
@@ -79,6 +108,25 @@ section{
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px hsla(0,0%,48%,.16);
+    color: #787878;
+    display: flex;
+    font-family: Graphik;
+    /* font-size: 18px; */
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    justify-content: center;
+    line-height: 33px;
+    padding: 5px;
+    text-align: center;
+    /* display: flex; */
+    width: 100%;
+    /* justify-content: space-around; */
+    transform: 1s;
 }
 .stn1-btn-card-text{
     display: flex;
